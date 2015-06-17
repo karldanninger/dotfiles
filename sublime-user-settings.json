@@ -1,0 +1,20 @@
+{
+  "color_scheme": "Packages/Railscasts Extended/Railscasts Extended.tmTheme",
+  "draw_white_space": "all",
+  "font_face": "Ubuntu Mono",
+  "font_size": 16.0,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "line_padding_bottom": 2,
+  "line_padding_top": 2,
+  "scroll_past_end": true,
+  "show_minimap": false,
+  "tab_size": 2,
+  "theme": "Spacegray.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "use_simple_full_screen": true,
+  "word_wrap": false
+}

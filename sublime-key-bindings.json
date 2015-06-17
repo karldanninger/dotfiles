@@ -1,0 +1,23 @@
+[
+  { "keys": ["option+shift+r"], "command": "reveal_in_side_bar"},
+  {
+    "keys": ["control+option+command+l"],
+    "command": "set_setting",
+    "args":
+    {
+        "setting": "color_scheme",
+        "value": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
+    }
+  },
+
+  {
+    "keys": ["control+option+command+d"],
+    "command": "set_setting",
+    "args":
+    {
+        "setting": "color_scheme",
+        "value": "Packages/Railscasts Extended/Railscasts Extended.tmTheme"
+    }
+  }
+
+]
