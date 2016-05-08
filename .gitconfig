@@ -1,6 +1,6 @@
 [user]
-	name = Karl Danninger
-	email = kdanninger@gmail.com
+  name = Karl Danninger
+  email = kdanninger@gmail.com
 
 [alias]
   c = commit -v
@@ -24,8 +24,8 @@
   excludesfile = /Users/karl/.gitignore
 
 [mergetool "sublime"]
-	cmd = subl -w $MERGED
-	trustExitCode = false
+  cmd = subl -w $MERGED
+  trustExitCode = false
 
 [merge]
-	tool = sublime
+  tool = sublime
