@@ -1,0 +1,31 @@
+[user]
+	name = Karl Danninger
+	email = kdanninger@gmail.com
+
+[alias]
+  c = commit -v
+  a = add --all
+  st = status -s
+  changed = ! git status -s | awk '{print $2}' | xargs # use this like "git changed vim", which will open all changed files in vim
+  co = checkout
+  d = difftool
+  l = log --pretty=format:'%Cred%h%Creset %an -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  lg = log --graph --pretty=format:'%Cred%h%Creset %an -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  w = wtf -A -r
+  b = branch
+  bd = ! git for-each-ref --sort=-committerdate refs/heads/ | tail -r
+  cleanup = ! git branch --merged | grep -v '*' | xargs -n 1 git branch -d
+  nuke = checkout -f
+  
+[push]
+  default = simple
+
+[core]
+  excludesfile = /Users/karl/.gitignore
+
+[mergetool "sublime"]
+	cmd = subl -w $MERGED
+	trustExitCode = false
+
+[merge]
+	tool = sublime
